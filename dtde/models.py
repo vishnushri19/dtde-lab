@@ -16,7 +16,7 @@ class BackendState:
     security_ok: bool = True
     policy_ok: bool = True
 
-    # Telemetry-derived scores (0–1 where applicable)
+    # Telemetry-derived scores (0-1 where applicable)
     health_score: float = 1.0
     latency_obs_ms: float = 0.0
     security_score: float = 1.0
