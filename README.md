@@ -33,3 +33,7 @@ Where:
 1. Install dependencies: `pip install -r requirements.txt`
 2. Generate the graph: `python -m experiments.visualize_results`
 3. Run CLI simulation: `python -m experiments.run_experiment_baseline_vs_dtde`
+
+## ?? Citation
+If you use this engine in your research, please cite it as follows:
+> Shri, V. (2026). Dynamic Traffic Decision Engine (DTDE): A Composite Scoring Approach. GitHub Repository: https://github.com/vishnushri19/dtde-lab
