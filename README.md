@@ -44,3 +44,6 @@ The DTDE framework is designed for extensibility. Future research directions inc
 1. **Predictive Failure Forecasting:** Integrating **LSTM (Long Short-Term Memory)** neural networks to transform the engine from *reactive* to *proactive*, shifting traffic based on pre-failure telemetry patterns.
 2. **Cost-Optimized Orchestration:** Incorporating egress cost variables into the composite score ($S_i$) to balance performance with cloud expenditure.
 3. **Consensus-Based Telemetry:** Implementing a **Gossip Protocol** across distributed DTDE nodes to ensure global routing consistency without a central controller.
+
+## ?? Security & Policy Enforcement
+DTDE treats Security and Policy as **Hard Constraints**. Even if a backend has the lowest latency, a security violation forces its score to 0.0. This ensures compliance is prioritized over performance.
