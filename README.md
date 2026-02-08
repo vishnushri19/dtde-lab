@@ -37,3 +37,10 @@ Where:
 ## ?? Citation
 If you use this engine in your research, please cite it as follows:
 > Shri, V. (2026). Dynamic Traffic Decision Engine (DTDE): A Composite Scoring Approach. GitHub Repository: https://github.com/vishnushri19/dtde-lab
+
+## ??? Roadmap & Future Work
+The DTDE framework is designed for extensibility. Future research directions include:
+
+1. **Predictive Failure Forecasting:** Integrating **LSTM (Long Short-Term Memory)** neural networks to transform the engine from *reactive* to *proactive*, shifting traffic based on pre-failure telemetry patterns.
+2. **Cost-Optimized Orchestration:** Incorporating egress cost variables into the composite score ($S_i$) to balance performance with cloud expenditure.
+3. **Consensus-Based Telemetry:** Implementing a **Gossip Protocol** across distributed DTDE nodes to ensure global routing consistency without a central controller.
