@@ -26,7 +26,7 @@ def run_visual_sim():
             
         best = engine.select_best_backend(backends)
         res = simulate_request(best)
-        monitor.update_backend(best, res)
+        monitor.update_backend_stats(best, res.latency_ms, res.success)
         
         # Log scores for graphing
         history["Region-A"].append(engine.calculate_score(backends[0]))
