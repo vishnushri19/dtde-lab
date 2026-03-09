@@ -41,7 +41,7 @@ def main():
         result = simulate_request(best_backend)
         
         # Update Telemetry (The Engine "Learns")
-        monitor.update_backend(best_backend, result)
+        monitor.update_backend_stats(best_backend, result.latency_ms, result.success)
         
         # Record stats
         stats[best_backend.id] += 1
